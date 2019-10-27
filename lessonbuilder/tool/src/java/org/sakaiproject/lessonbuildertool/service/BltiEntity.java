@@ -294,7 +294,7 @@ public class BltiEntity implements LessonEntity, BltiInterface {
     }
 
     private String getErrorUrl() {
-	return "javascript:document.write('" + messageLocator.getMessage("simplepage.format.item_removed").replace("'", "\\'") + "')";
+        return "javascript:document.write('" + messageLocator.getMessage("simplepage.format.item_removed").replace("'", "\\'") + "')";
     }
 
     // TODO: Concern regarding the lack of the returnUrl when this is called
